@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevHelper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-content">
+      <div class="logo"><div class="logo-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m384-336 56-57-87-87 87-87-56-57-144 144 144 144Zm192 0 144-144-144-144-56 57 87 87-87 87 56 57ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg></div>DevHelper</div>
+      <nav>
+        <ul>
+          <li><a href="#templates">Templates</a></li>
+          <li><a href="#add-code">Ajouter un code</a></li>
+          <li><a href="#about">À propos de nous</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Développe sans te prendre la tête</h1>
+    <p>Des templates prêts, des outils simples, une communauté bienveillante.</p>
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Trouve ton template parfait...">
+    </div>
+    <div class="tags">
+      <div class="tag active">HTML</div>
+      <div class="tag">CSS</div>
+      <div class="tag">JS</div>
+    </div>
+  </div>
+</section>
+
+<section class="templates-section" id="templates">
+  <div class="container">
+    <h2 class="section-title">Snippets à copier</h2>
+
+    <!-- Templates HTML -->
+    <div class="template-card html-template">
+      <div class="template-preview">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;Hello World!&lt;/body&gt;
+&lt;/html&gt;</div>
+      <h3>HTML de base</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card html-template">
+      <div class="template-preview">&lt;table&gt;&lt;tr&gt;&lt;td&gt;Cellule&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</div>
+      <h3>Tableau HTML</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card html-template">
+      <div class="template-preview">&lt;nav&gt;&lt;ul&gt;&lt;li&gt;Accueil&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;</div>
+      <h3>Navigation HTML</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card html-template">
+      <div class="template-preview">&lt;section&gt;Contenu de section&lt;/section&gt;</div>
+      <h3>Section HTML</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card html-template">
+      <div class="template-preview">&lt;div class="container"&gt;Contenu&lt;/div&gt;</div>
+      <h3>Div HTML</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card html-template">
+      <div class="template-preview">&lt;form&gt;&lt;input type="text"&gt;&lt;button&gt;Envoyer&lt;/button&gt;&lt;/form&gt;</div>
+      <h3>Formulaire HTML</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+
+    <!-- Templates CSS -->
+    <div class="template-card css-template" style="display:none;">
+      <div class="template-preview">body { background:#f0f0f0; color:#333; font-family:sans-serif; }
+h1 { font-size:2rem; color:#6366F1; }</div>
+      <h3>CSS de base</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card css-template" style="display:none;">
+      <div class="template-preview">.container { max-width:1200px; margin:auto; padding:1rem; }</div>
+      <h3>Container CSS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card css-template" style="display:none;">
+      <div class="template-preview">.btn { padding:0.5rem 1rem; border-radius:12px; }</div>
+      <h3>Bouton CSS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card css-template" style="display:none;">
+      <div class="template-preview">.hero { text-align:center; padding:2rem; }</div>
+      <h3>Hero CSS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card css-template" style="display:none;">
+      <div class="template-preview">.template-card { box-shadow:0 8px 32px rgba(0,0,0,0.1); }</div>
+      <h3>Card CSS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card css-template" style="display:none;">
+      <div class="template-preview">.tags .tag.active { background:#6366F1; color:white; }</div>
+      <h3>Tags Actifs CSS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+
+    <!-- Templates JS -->
+    <div class="template-card js-template" style="display:none;">
+      <div class="template-preview">console.log("Hello World!");</div>
+      <h3>JS de base</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card js-template" style="display:none;">
+      <div class="template-preview">alert("Bienvenue sur DevHelper!");</div>
+      <h3>Alert JS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card js-template" style="display:none;">
+      <div class="template-preview">document.querySelector(".hero").style.background="pink";</div>
+      <h3>Modification DOM JS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card js-template" style="display:none;">
+      <div class="template-preview">let count=0; function increment(){count++;}</div>
+      <h3>Compteur JS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card js-template" style="display:none;">
+      <div class="template-preview">const items=["A","B"]; items.forEach(i=>console.log(i));</div>
+      <h3>Boucle JS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+    <div class="template-card js-template" style="display:none;">
+      <div class="template-preview">window.addEventListener("scroll",()=>console.log(window.scrollY));</div>
+      <h3>Scroll Event JS</h3>
+      <div class="template-actions"><button class="btn btn-primary copy-btn">Copier</button></div>
+    </div>
+
+  </div>
+</section>
+
+<section class="add-code-section" id="add-code">
+  <h2>Ajouter un nouveau code</h2>
+  <form class="add-code-form" method="post" action="php/send_code.php">
+    <input type="text" name="title" placeholder="Titre du snippet" required>
+    <select name="type" required>
+      <option value="">Type de code</option>
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JS">JS</option>
+    </select>
+    <textarea name="code" placeholder="Collez votre code ici..." rows="6" required></textarea>
+    <button type="submit" class="btn btn-primary">Envoyer pour vérification</button>
+    <p style="text-align:center; font-size:0.9rem; opacity:0.7;">Votre code sera envoyé pour validation avant publication.</p>
+  </form>
+</section>
+
+<section class="about-section" id="about">
+  <h2>À propos de nous</h2>
+  <p>DevHelper est né d’une idée simple : aider les développeurs à coder plus efficacement, surtout ceux qui débutent ou travaillent sur plusieurs projets en même temps.<br>
+Pendant ma formation et mes premiers projets web, j’ai remarqué que beaucoup de développeurs perdent du temps à chercher des snippets pour leurs projets. DevHelper a été créé pour résoudre ce problème en offrant un accès rapide à des outils utiles et des conseils pratiques, directement dans le navigateur.<br>
+Le site propose :<br>
+* Des snippets de code (HTML, CSS, JS) pour accélérer le développement.<br>
+* Un formulaire pour aider vos amis développeurs à avoir d'autres snippets.<br>
+L’objectif du projet est de rendre le développement web plus simple et plus rapide, tout en offrant une expérience agréable et intuitive. DevHelper n’est pas seulement un outil : c’est un compagnon pour tous les développeurs qui veulent gagner du temps et améliorer leur code, une ligne à la fois.</p>
+</section>
+
+<footer>
+  <p>© 2025 DevHelper</p>
+  <p>Contact : g.cornet07@gmail.com</p>
+  <p>GitHub : <a href="https://github.com/Gabin333">Gabin333</a></p>
+  <p>LinkedIn : <a href="https://www.linkedin.com/in/gabin-cornet-72098a36b/">Gabin Cornet</a></p>
+</footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
